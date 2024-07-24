@@ -1,0 +1,5 @@
+venv/
+log_dumps/
+!log_dumps/.gitkeep
+# for mac users ugh:
+.DS_Store
