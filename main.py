@@ -43,7 +43,7 @@ def calculate_average_tokens(directory):
     # Print the results as a table
     print(f"{'Filename':<100}{'Average Tokens'}")
     print("="*120)
-    for filename, avg_tokens in results:
+    for filename, avg_tokens in sorted(results, key=lambda x: x[0]):
         print(f"{filename:<100}{avg_tokens:.2f}")
 
 # Define the directory
