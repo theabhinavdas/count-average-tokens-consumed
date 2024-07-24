@@ -1,4 +1,7 @@
 import os
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import pandas as pd
 
 def calculate_average_tokens(directory):
